@@ -4,40 +4,15 @@
   <meta charset="UTF-8" />
   <title>exam</title>
   <script src="../phaser.min.js"></script>
-  <style>
-    * {
-      margin: 10;
-      padding: 10;
-      background-color: #EAEAEA;
-    }
 
-    div {
-      width: 200px;
-      height: 200px;
-      background-color: #1E90FF;
-    }
-
-    .center-in-center {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-
-      z-index: -2;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="center-in-center"></div>
+  
 
   <script>
 
-    var game = new Phaser.Game(800, 600, Phaser.AUTO, 'center-in-center', { preload: preload, create: create, update: update });
+    var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
     function preload() {
       game.load.image('sky', 'assets/sky.png');
