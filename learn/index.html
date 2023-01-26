@@ -12,6 +12,14 @@
 
   <script>
 
+
+    document.log('hello')
+    window.confirm('你好！')
+    window.alert('你好！')
+
+
+
+
     var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
 
@@ -95,10 +103,6 @@
       scoreText.text = 'Score: ' + score;
     }
 
-    document.log('hello')
-
-    window.confirm('你好！')
-    window.alert('你好！')
 
   </script>
 
