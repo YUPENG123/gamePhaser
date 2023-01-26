@@ -5,23 +5,12 @@
   <title>exam</title>
   <script src="../phaser.min.js"></script>
 
-  <script>
-        window.alert('head部的你好！')
-  </script>
-
 </head>
 
 <body>
 
 
   <script>
-
-
-    window.alert('body前部的你好！')
-    window.confirm('你好')
-    window.prompt('你好','你好啊')
-
-
 
 
     var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
@@ -106,9 +95,6 @@
       score += 10;
       scoreText.text = 'Score: ' + score;
     }
-
-
-    window.alert('body后部的你好！')
 
   </script>
 
