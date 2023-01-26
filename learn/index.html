@@ -14,6 +14,11 @@
 
     var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
+    game.scale.scaleMode = Phaser.ScaleManager.EXACT_FIT;
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
+    game.renderer.renderSession.roundPixels = true;
+
     function preload() {
       game.load.image('sky', 'assets/sky.png');
       game.load.image('ground', 'assets/platform.png');
@@ -22,7 +27,7 @@
     }
 
     var platforms;
-    var player;
+    var player; can
     var cursors;
     var stars;
     var score = 0;
