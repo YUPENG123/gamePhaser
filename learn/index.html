@@ -40,12 +40,15 @@
       if (gameBestRatio > viewportRatio) {
         //take viewport width as base value
         content.style.width = viewport_w + 'px';
+        content.style.height = (viewport_w / gameBestRatio) + 'px';
       } else {
-
+        //take viewport height as base value
+        content.style.height = viewport_h + 'px';
+        content.style.width = (viewport_h * gameBestRatio) + 'px';
       }
 
 
-      var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+      var game = new Phaser.Game(gameBestWidth, gameBestHeight, Phaser.AUTO, 'content', { preload: preload, create: create, update: update });
 
       function preload() {
         game.load.image('sky', 'assets/sky.png');
