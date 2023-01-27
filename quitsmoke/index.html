@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quit Smoking</title>
     <style>
-        body{
-/*.  background-color: black;   背景颜色              */
+        body {
+            /*.  background-color: black;   背景颜色              */
             background-color: #121212;
             margin: 0;
         }
-        #content{
+
+        #content {
             margin: 0 auto;
         }
     </style>
     <script src="../phaser.min.js"></script>
 </head>
+
 <body>
     <div id="game">
         <div id="content"></div>
@@ -28,7 +31,7 @@
     <script src="js/gameplay.js"></script>
 
     <script>
-        (function(){
+        (function () {
             var gameBestWidth = 520;
             var gameBestHeight = 720;
             var gameBestRatio = gameBestWidth / gameBestHeight;
@@ -40,23 +43,27 @@
 
             var content = document.getElementById("content");
 
-            if(gameBestRatio > viewportRatio){
+            if (gameBestRatio > viewportRatio) {
                 // take viewport height as base value
-                content.style.width  = viewport_w + "px";
+                content.style.width = viewport_w + "px";
                 content.style.height = (viewport_w / gameBestRatio) + "px";
-            } else if(gameBestRatio < viewportRatio){
+            } else if (gameBestRatio < viewportRatio) {
                 // take viewport width as base value
                 content.style.height = viewport_h + "px";
-                content.style.width  = (viewport_h * gameBestRatio) + "px";
-            } 
+                content.style.width = (viewport_h * gameBestRatio) + "px";
+            }
 
-            var game = new Phaser.Game(gameBestWidth, gameBestHeight, Phaser.CANVAS , "content");
+            var game = new Phaser.Game(gameBestWidth, gameBestHeight, Phaser.CANVAS, "content");
             game.state.add('Boot', boot);
             game.state.add('MainMenu', mainMenu);
             game.state.add('Preload', preload);
             game.state.add('Gameplay', gameplay);
             game.state.start('Boot');
+
+            console.log(game);
+
         })();
     </script>
 </body>
+
 </html>
