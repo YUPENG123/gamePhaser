@@ -14,18 +14,18 @@ function create() {
     console.log('TAP');
   });
   game.input.onDown.add(function () {
-    console.log(‘DOWN‘);
+    console.log('DOWN');
     console.log(Date.now());
   });
   game.input.onHold.add(function () { //按下去2s后触发
-    console.log(‘Hold‘);
+    console.log('Hold');
     console.log(Date.now());
   });
   game.input.onUp.add(function () {
-    console.log(‘UP‘);
+    console.log('UP');
   });
   game.input.onTap.add(function () {
-    console.log(‘TAP‘);
+    console.log('TAP');
   });
 }
 
