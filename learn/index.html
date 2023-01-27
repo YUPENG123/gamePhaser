@@ -22,6 +22,14 @@
       var gameBestHeight = 600;
       var gameBestRatio = gameBestWidth / gameBestHeight
 
+      //Get viewport ratio.
+      var viewport_w = window.innerwidth;
+
+      //测试一下看看运行是否如我所愿！！！！
+      alert(viewport_w)
+
+
+
       var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
       function preload() {
