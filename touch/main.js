@@ -17,7 +17,7 @@ function create() {
 
 function render() {
     // 调试信息
-    game.debug.pointer(game.input.mousePointer);
-    //game.debug.pointer(game.input.pointer1);
+    //game.debug.pointer(game.input.mousePointer);
+    game.debug.pointer(game.input.pointer1);
     //game.debug.pointer(game.input.pointer2);
 }
