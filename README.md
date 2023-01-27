@@ -12,4 +12,5 @@
 * [learn5](https://yupeng123.github.io/gamePhaser/learn/exam5.html)
 * [learn6](https://yupeng123.github.io/gamePhaser/learn/exam6.html)
 * [learn7](https://yupeng123.github.io/gamePhaser/learn/exam7.html)
+* [learn8](https://yupeng123.github.io/gamePhaser/learn/exam8.html)
 
