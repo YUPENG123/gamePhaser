@@ -1,27 +1,33 @@
-<!DOCTYPE html> 
-<head> 
-	<meta charset="UTF-8" />
-	<title>exam1</title>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>exam1</title>
     <script src="../phaser.min.js"></script>
 </head>
+
 <body>
 
-<script>
+    <script>
 
-var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
-function preload() {
-    console.log('preload');
-}
+        function preload() {
+            console.log('preload');
+        }
 
-function create() {
-    console.log('create');
-}
+        function create() {
+            console.log('create');
+            this.game.input.touch.onTouchStart = function () {
+                //alert(0);
+                // t.jump();
+                console.log("down");
+            }
+        }
+        function update() {
+            console.log('update');
+        }
 
-function update() {
-    console.log('update');
-}
-
-</script>
+    </script>
 
 </body>
