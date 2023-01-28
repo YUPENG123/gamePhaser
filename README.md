@@ -14,4 +14,5 @@
 * [learn7](https://yupeng123.github.io/gamePhaser/learn/exam7.html)
 * [learn8](https://yupeng123.github.io/gamePhaser/learn/exam8.html)
 * [touch](https://yupeng123.github.io/gamePhaser/touch)
+* [virtualTouch](https://yupeng123.github.io/gamePhaser/virtualTouch)
 
