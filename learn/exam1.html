@@ -14,11 +14,11 @@
 
         function preload() {
             // console.log('preload');
-            game.load.image(assets/sky.png);
+            game.load.image('sky',assets/sky.png);
         }
 
         function create() {
-            
+            game.add.sprite(0,0,'sky');
             this.game.input.touch.onTouchStart = function () {
                 //alert(0);
                 // t.jump();
