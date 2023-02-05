@@ -24,7 +24,8 @@
             game.add.sprite(0, 0, 'sky');
             game.add.sprite(0, 0, 'star');
             game.add.sprite(200, game.world.height - 200, 'dude');
-            game.add.sprite(0, game.world.height - 64, 'ground');
+            var ground = game.add.sprite(0, game.world.height - 64, 'ground');
+            
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 
         }
