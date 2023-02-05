@@ -29,7 +29,7 @@
         }
 
         function create() {
-            game.physics.startsystem(Phaser.Physics.ARCADE);
+            game.physics.startSystem(Phaser.Physics.ARCADE);
             game.add.sprite(0, 0, 'sky');
             game.add.sprite(0, 0, 'star');
             var ground = game.add.sprite(0, game.world.height - 64, 'ground');
