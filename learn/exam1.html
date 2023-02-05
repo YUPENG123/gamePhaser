@@ -23,6 +23,7 @@
             game.add.sprite(0, 0, 'sky');
             game.add.sprite(0, 0, 'star');
             game.add.sprite(200, game.world.height - 200, 'dude');
+            game.scale.scaleMode=Phaser.ScaleManager.EXACT_FIT;
         }
         function update() {
             console.log('update');
