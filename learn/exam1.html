@@ -39,6 +39,7 @@
 
             var player = game.add.sprite(200, game.world.height - 200, 'dude');
             game.physics.arcade.enable(player);
+            player.body.gravity.y=300;
 
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         }
