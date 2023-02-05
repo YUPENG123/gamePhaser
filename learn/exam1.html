@@ -29,7 +29,7 @@
         }
 
         function create() {
-            game.physics.startsystem();
+            game.physics.startsystem(Phaser.physics.ARCADE);
             game.add.sprite(0, 0, 'sky');
             game.add.sprite(0, 0, 'star');
             game.add.sprite(200, game.world.height - 200, 'dude');
