@@ -21,6 +21,7 @@
 
         var game = new Phaser.Game(800, 600, Phaser.CANVAS, '', { preload: preload, create: create, update: update });
 
+        //加载一些素材。
         function preload() {
             // console.log('preload');
             game.load.image('sky', 'assets/sky.png');
@@ -29,9 +30,10 @@
             game.load.image('ground', 'assets/platform.png');
         }
 
-        var player;
+        var player;    //全局变量。
         var cursors;
 
+        //加载屏幕显示。
         function create() {
             game.physics.startSystem(Phaser.Physics.ARCADE);
             game.add.sprite(0, 0, 'sky');
@@ -50,9 +52,10 @@
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         }
 
+        //动画。
         function update() {
             if (cursors.left.isDown) {
-                console.log('left');
+                player.body.velocity = -150;
             } else if (cursors.right.isDown) {
                 console.log('right');
             }
