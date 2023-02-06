@@ -38,6 +38,7 @@
         //加载屏幕显示。
         function create() {
             game.physics.startSystem(Phaser.Physics.ARCADE);
+            platforms=game.add.group();
 
             game.add.sprite(0, 0, 'sky');
             game.add.sprite(0, 0, 'star');
