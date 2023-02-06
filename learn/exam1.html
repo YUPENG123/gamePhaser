@@ -55,9 +55,9 @@
         //动画。
         function update() {
             if (cursors.left.isDown) {
-                player.body.velocity = -150;
+                player.body.velocity.x = -150;
             } else if (cursors.right.isDown) {
-                player.body.velocity = 150;
+                player.body.velocity.x = 150;
             }
             else {
             }
