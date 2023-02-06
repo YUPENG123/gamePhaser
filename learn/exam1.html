@@ -39,11 +39,12 @@
 
             var player = game.add.sprite(200, game.world.height - 200, 'dude');
             game.physics.arcade.enable(player);
-            player.body.gravity.y=300;
+            player.body.gravity.y = 300;
+            player.body.colladeWorldBounds = true;
 
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         }
-        
+
         function update() {
             console.log('update');
         }
