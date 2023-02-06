@@ -2,8 +2,10 @@
 
 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
 
+* [Phaser官方网站](https://phaser.io/)
 * [Phaser小站](https://www.phaser-china.com)
 * [Phaser从入门到精通](http://book.phaser-china.com/)
+* [菜鸟教程](https://www.runoob.com/)
 
 * [Game](https://yupeng123.github.io/gamePhaser/)
 * [learn](https://yupeng123.github.io/gamePhaser/learn/)
