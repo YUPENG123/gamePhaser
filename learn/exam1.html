@@ -46,8 +46,8 @@
             ground.scale.setTo(2, 2);
             ground.body.immovable = true;
             console.log(ground);
-            game.add.sprite(400, 400, 'ground');
-            game.add.sprite(-150, 250, 'ground');
+            var ledge=platforms.create(400, 400, 'ground');
+            platforms.create(-150, 250, 'ground');
 
             player = game.add.sprite(200, game.world.height - 200, 'dude');
             game.physics.arcade.enable(player);
