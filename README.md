@@ -22,4 +22,5 @@ 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
 * [virtualTouch](https://yupeng123.github.io/gamePhaser/virtualTouch)
 * [plane](https://yupeng123.github.io/gamePhaser/plane)
 * [plugin](https://yupeng123.github.io/gamePhaser/plugin)
+* [joystick](https://yupeng123.github.io/gamePhaser/joystick)
 
