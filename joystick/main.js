@@ -9,7 +9,7 @@ init:function(){
 
 },
 preload:function(){
-    
+console.log('preload');
 },
 };
 
