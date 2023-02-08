@@ -1,6 +1,10 @@
 var game = new Phaser.Game(800, 600, Phaser.CANVAS, "phaser-example");
 
-var PhaserGame = function () {};
+var PhaserGame = function () {
+  this.sprite;
+  this.pad;
+  this.stick;
+};
 
 PhaserGame.prototype = {
   init: function () {
@@ -23,7 +27,8 @@ PhaserGame.prototype = {
   },
   update: function () {
     console.log("update");
-  }
+  },
 };
 
 game.state.add("game", PhaserGame, true);
+console.log(PhaserGame);
