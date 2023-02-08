@@ -23,7 +23,7 @@ PhaserGame.prototype = {
   },
   update: function () {
     console.log("update");
-  },
+  }
 };
 
 game.state.add("game", PhaserGame, true);
