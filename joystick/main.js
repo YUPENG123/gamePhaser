@@ -14,6 +14,9 @@ PhaserGame.prototype = {
     create: function () {
         console.log('create');
     },
+    pressButtonA:function(){
+        
+    };
 };
 
 game.state.add('game', PhaserGame, true);
