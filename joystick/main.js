@@ -8,6 +8,9 @@ PhaserGame.prototype = {
 init:function(){
 
 },
+preload:function(){
+    
+},
 };
 
 game.state.add('game',PhaserGame,true);
