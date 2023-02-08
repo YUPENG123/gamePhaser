@@ -7,3 +7,4 @@ var PhaserGame = function () {
 PhaserGame.prototype = {
 
 };
+
