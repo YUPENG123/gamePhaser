@@ -6,7 +6,7 @@ var PhaserGame = function () {
 
 PhaserGame.prototype = {
 init:function(){
-
+console.log('init');
 },
 preload:function(){
 console.log('preload');
