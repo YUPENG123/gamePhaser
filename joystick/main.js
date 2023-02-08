@@ -15,7 +15,7 @@ PhaserGame.prototype = {
         console.log('create');
     },
     pressButtonA:function(){
-
+        console.log('buttonA');
     },
 };
 
