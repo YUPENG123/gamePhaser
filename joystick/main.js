@@ -4,6 +4,6 @@ var PhaserGame = function () {
 
 };
 
-phaserGame.prototype = {
+PhaserGame.prototype = {
 
 };
