@@ -5,7 +5,9 @@ var PhaserGame = function () {
 };
 
 PhaserGame.prototype = {
+init:function(){
 
+},
 };
 
 game.state.add('game',PhaserGame,true);
