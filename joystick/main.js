@@ -4,6 +4,9 @@ var PhaserGame = function () {
   this.sprite;
   this.pad;
   this.stick;
+  this.buttonA;  
+  this.buttonB;
+  this.buttonC;
 };
 
 PhaserGame.prototype = {
