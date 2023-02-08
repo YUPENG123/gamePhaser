@@ -8,3 +8,4 @@ PhaserGame.prototype = {
 
 };
 
+game.state.add();
