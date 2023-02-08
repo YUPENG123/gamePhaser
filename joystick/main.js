@@ -11,6 +11,7 @@ console.log('init');
 preload:function(){
 console.log('preload');
 },
+
 };
 
 game.state.add('game',PhaserGame,true);
