@@ -14,10 +14,10 @@ PhaserGame.prototype = {
     create: function () {
         console.log('create');
     },
-    pressButtonA:function(){
+    pressButtonA: function () {
         console.log('buttonA');
     },
-    pressButtonB:function(){
+    pressButtonB: function () {
         console.log('buttonB');
     },
 };
