@@ -14,7 +14,7 @@ PhaserGame.prototype = {
     console.log("init");
   },
   preload: function () {
-    console.log("preload");
+    this.load.image();
   },
   create: function () {
     console.log("create");
