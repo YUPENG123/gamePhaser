@@ -28,6 +28,7 @@ PhaserGame.prototype = {
 
     this.pad = this.game.plugins.add(Phaser.VirtualJoystick);
     this.stick = this.pad.addStick(0, 0, 200, "arcade");
+    this.stick.alignBottomLeft();
   },
   pressButtonA: function () {
     console.log("buttonA");
