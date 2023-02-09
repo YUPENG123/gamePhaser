@@ -43,4 +43,4 @@ PhaserGame.prototype = {
 };
 
 game.state.add("Game", PhaserGame, true);
-console.log(PhaserGame);
+
