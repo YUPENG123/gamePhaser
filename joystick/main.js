@@ -30,8 +30,8 @@ PhaserGame.prototype = {
     this.stick = this.pad.addStick(0, 0, 200, "arcade");
     this.stick.alignBottomLeft();
     console.log(this.pad);
-    console.log(stick);
-    console.log(sprite);
+    console.log(this.stick);
+    console.log(this.sprite);
   },
   pressButtonA: function () {
     console.log("buttonA");
@@ -48,4 +48,4 @@ PhaserGame.prototype = {
 };
 
 game.state.add("Game", PhaserGame, true);
-//console.log(PhaserGame);
+console.log(PhaserGame);
