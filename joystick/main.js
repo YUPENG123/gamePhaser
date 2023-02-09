@@ -48,5 +48,5 @@ PhaserGame.prototype = {
   },
 };
 
-game.state.add('game', PhaserGame, true);
+game.state.add('Hame', PhaserGame, true);
 //console.log(PhaserGame);
