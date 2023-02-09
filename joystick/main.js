@@ -11,7 +11,7 @@ var PhaserGame = function () {
 
 PhaserGame.prototype = {
   init: function () {
-    this.physics.startSystem(Phaser.Physics.ARCADE);
+    console.log('init');
   },
   preload: function () {
     this.load.image("bg", "assets/space1.png");
