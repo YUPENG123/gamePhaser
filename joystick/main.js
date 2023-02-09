@@ -42,7 +42,12 @@ PhaserGame.prototype = {
   update: function () {
     console.log("update");
   },
+
 };
 
 game.state.add("game", PhaserGame, true);
 console.log(PhaserGame);
+console.log(pad);
+console.log(stick);
+console.log(sprite);
+
