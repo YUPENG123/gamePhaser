@@ -15,9 +15,11 @@ PhaserGame.prototype = {
   },
   preload: function () {
     this.load.image("bg", "assets/space1.png");
+    this.load.image("ball", "assets/beball1.png");
   },
   create: function () {
-    this.add.image("bg");
+    this.add.image(0, 0, "bg");
+    this.add.sprite(400, 200, "ball");
   },
   pressButtonA: function () {
     console.log("buttonA");
