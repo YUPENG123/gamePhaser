@@ -16,12 +16,16 @@ PhaserGame.prototype = {
   preload: function () {
     this.load.image("bg", "assets/space1.png");
     this.load.image("ball", "assets/beball1.png");
-    this.load.atlas('arcade','assets/arcade-joystick.png','assets/arcade-joystick.json');
+    this.load.atlas(
+      "arcade",
+      "assets/arcade-joystick.png",
+      "assets/arcade-joystick.json"
+    );
   },
   create: function () {
     this.add.image(0, 0, "bg");
     this.sprite = this.add.sprite(400, 200, "ball");
-    this.pad=this.game.plugins.add(Phaser.VirtualJoyStick);
+    this.pad = this.game.plugins.add(Phaser.VirtualJoyStick);
   },
   pressButtonA: function () {
     console.log("buttonA");
