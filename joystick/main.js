@@ -16,6 +16,7 @@ PhaserGame.prototype = {
   preload: function () {
     this.load.image("bg", "assets/space1.png");
     this.load.image("ball", "assets/beball1.png");
+    this.load.atlas('arcade','assets/arcade-joystick.png','assets/arcade-joystick.json');
   },
   create: function () {
     this.add.image(0, 0, "bg");
