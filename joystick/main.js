@@ -11,7 +11,6 @@ var PhaserGame = function () {
 
 PhaserGame.prototype = {
   init: function () {
-    this.game.renderer.renderSession.roundPixels = true;
     this.physics.startSystem(Phaser.Physics.ARCADE);
   },
   preload: function () {
