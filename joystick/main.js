@@ -17,7 +17,7 @@ PhaserGame.prototype = {
     this.load.image("bg", "assets/space1.png");
   },
   create: function () {
-    console.log("create");
+    this.add.image('bg');
   },
   pressButtonA: function () {
     console.log("buttonA");
