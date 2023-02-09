@@ -38,6 +38,15 @@ PhaserGame.prototype = {
       "button1-down"
     );
     this.buttonA.onDown.add(this.pressButtonA, this);
+
+    this.buttonB = this.pad.addButton(
+      615,
+      450,
+      "arcade",
+      "button2-up",
+      "button2-down"
+    );
+    this.buttonB.onDown.add(this.pressButtonB, this);
   },
   pressButtonA: function () {
     console.log("buttonA");
