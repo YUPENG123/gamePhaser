@@ -50,7 +50,5 @@ PhaserGame.prototype = {
 
 game.state.add("game", PhaserGame, true);
 console.log(PhaserGame);
-console.log(PhaserGame.pad);
-console.log(PhaserGame.stick);
-console.log(PhaserGame.sprite);
+
 
