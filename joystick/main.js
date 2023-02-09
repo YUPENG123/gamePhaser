@@ -52,4 +52,4 @@ PhaserGame.prototype = {
   },
 };
 
-game.state.add("Game", PhaserGame, true);
+game.state.add("game", PhaserGame, true);
