@@ -11,7 +11,7 @@ var PhaserGame = function () {
 
 PhaserGame.prototype = {
   init: function () {
-    this.game.renderer.renderSession.roundPixels=true;
+    this.game.renderer.renderSession.roundPixels = true;
   },
   preload: function () {
     this.load.image("bg", "assets/space1.png");
@@ -27,11 +27,10 @@ PhaserGame.prototype = {
     this.sprite = this.add.sprite(400, 200, "ball");
 
     this.pad = this.game.plugins.add(Phaser.VirtualJoyStick);
-    this.stick = this.pad.addstick(0, 0, 200, 'arcade');
+    this.stick = this.pad.addstick(0, 0, 200, "arcade");
     console.log(pad);
     console.log(stick);
     console.log(sprite);
-
   },
   pressButtonA: function () {
     console.log("buttonA");
@@ -45,10 +44,7 @@ PhaserGame.prototype = {
   update: function () {
     console.log("update");
   },
-
 };
 
 game.state.add("game", PhaserGame, true);
 //console.log(PhaserGame);
-
-
