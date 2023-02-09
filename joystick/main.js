@@ -49,7 +49,16 @@ PhaserGame.prototype = {
     console.log("buttonC");
   },
   update: function () {
-    console.log("update");
+    var maxSpeed = 400;
+
+    if(this.stick.isDown){
+      this.physics.arcade.velocityFromRotation(this.stick.rotation,this.stick.force*maxSpeed,this.sprite.body.velocity);
+
+    }
+    else{
+      this.sprite.body.velocity.set(0);
+
+    }
   },
 };
 
