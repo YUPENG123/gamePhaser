@@ -37,6 +37,7 @@ PhaserGame.prototype = {
       "button1-up",
       "button1-down"
     );
+    this.buttonA.onDown.add(this.pressButtonA, this);
   },
   pressButtonA: function () {
     console.log("buttonA");
