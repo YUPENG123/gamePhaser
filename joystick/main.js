@@ -4,7 +4,7 @@ var PhaserGame = function () {
   this.sprite;
   this.pad;
   this.stick;
-  this.buttonA;  
+  this.buttonA;
   this.buttonB;
   this.buttonC;
 };
@@ -14,7 +14,7 @@ PhaserGame.prototype = {
     console.log("init");
   },
   preload: function () {
-    this.load.image('bg','assets/space1.png');
+    this.load.image("bg", "assets/space1.png");
   },
   create: function () {
     console.log("create");
