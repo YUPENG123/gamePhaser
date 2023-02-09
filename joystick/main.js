@@ -11,27 +11,27 @@ var PhaserGame = function () {
 
 PhaserGame.prototype = {
   init: function () {
-    console.log('init');
+    console.log("init");
   },
   preload: function () {
-    this.load.image('bg', 'assets/space1.png');
+    this.load.image("bg", "assets/space1.png");
   },
   create: function () {
-    this.add.image('bg');
+    this.add.image("bg");
   },
   pressButtonA: function () {
-    console.log('buttonA');
+    console.log("buttonA");
   },
   pressButtonB: function () {
-    console.log('buttonB');
+    console.log("buttonB");
   },
   pressButtonC: function () {
-    console.log('buttonC');
+    console.log("buttonC");
   },
   update: function () {
-    console.log('update');
+    console.log("update");
   },
 };
 
-game.state.add('game', PhaserGame, true);
+game.state.add("game", PhaserGame, true);
 console.log(PhaserGame);
