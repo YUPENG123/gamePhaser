@@ -28,7 +28,7 @@ PhaserGame.prototype = {
     this.sprite = this.add.sprite(400, 200, "ball");
 
     this.pad = this.game.plugins.add(Phaser.VirtualJoyStick);
-    this.stick = this.pad.addstick(0, 0, 200, "arcade");
+    this.stick = this.pad.addStick(0, 0, 200, "arcade");
     console.log(pad);
     console.log(stick);
     console.log(sprite);
