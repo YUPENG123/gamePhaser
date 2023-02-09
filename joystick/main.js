@@ -19,7 +19,7 @@ PhaserGame.prototype = {
   },
   create: function () {
     this.add.image(0, 0, "bg");
-    this.add.sprite(400, 200, "ball");
+    this.sprite = this.add.sprite(400, 200, "ball");
   },
   pressButtonA: function () {
     console.log("buttonA");
