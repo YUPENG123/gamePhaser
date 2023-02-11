@@ -14,9 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: go
-      run: 
-      cd joystickHHH
-      unzip example.zip
-      git push
+      run:
+      ls
+      #cd joystickHHH
+      # unzip example.zip
 
 
