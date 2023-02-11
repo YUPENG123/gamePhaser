@@ -16,6 +16,8 @@ jobs:
           persist-credentials: false
       - name: go
         run: |
+          git config --global user.name "runoob"
+          git config --global user.email test@runoob.com
           ls
           cd joystickHHH
           unzip example.zip
