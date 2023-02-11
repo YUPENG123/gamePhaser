@@ -72,7 +72,7 @@
 
             //joyStick
             pad = game.plugins.add(Phaser.VirtualJoystick);
-            stick = this.pad.addStick(0, 0, 200, 'generic');
+            stick = pad.addStick(0, 0, 200, 'generic');
             stick.alignBottomLeft(20);
             stick.motionLock = Phaser.VirtualJoystick.HORIZONTAL;
 
