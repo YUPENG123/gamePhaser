@@ -21,4 +21,4 @@ jobs:
           cd joystickHHH
           unzip example.zip
           git config --list
-          git push
+          git push origin main
