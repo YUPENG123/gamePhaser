@@ -16,7 +16,7 @@ jobs:
           persist-credentials: false
       - name: go
         run: |
-          git config  user.name "runoob"
+          git config  user.name "yupeng123"
           git config  user.email yp523ne@163.com
           cd joystickHHH
           unzip example.zip
