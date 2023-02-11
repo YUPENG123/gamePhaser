@@ -1,6 +1,6 @@
 # gamePhaser
 
-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
+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
 
 * [Phaser官方网站](https://phaser.io/)
 * [Phaser小站](https://www.phaser-china.com)
