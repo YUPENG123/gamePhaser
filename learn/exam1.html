@@ -72,9 +72,9 @@
 
             //joyStick
             pad = game.plugins.add(Phaser.VirtualJoystick);
-            this.stick = this.pad.addStick(0, 0, 200, 'generic');
-            this.stick.alignBottomLeft(20);
-            this.stick.motionLock = Phaser.VirtualJoystick.HORIZONTAL;
+            stick = this.pad.addStick(0, 0, 200, 'generic');
+            stick.alignBottomLeft(20);
+            stick.motionLock = Phaser.VirtualJoystick.HORIZONTAL;
 
 
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
