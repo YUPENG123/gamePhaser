@@ -35,6 +35,7 @@
         var player;    //全局变量。
         var cursors;
         var platforms;
+        var stick;
 
         //加载屏幕显示。
         function create() {
@@ -68,6 +69,13 @@
             graphics.lineStyle(1, 0xff0000, 1);
             graphics.moveTo(100, 200);
             graphics.lineTo(500, 500);
+
+            //joyStick
+            pad = game.plugins.add(Phaser.VirtualJoystick);
+            this.stick = this.pad.addStick(0, 0, 200, 'generic');
+            this.stick.alignBottomLeft(20);
+            this.stick.motionLock = Phaser.VirtualJoystick.HORIZONTAL;
+
 
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         }
