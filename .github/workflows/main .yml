@@ -1,0 +1,28 @@
+name: gamePhaserCI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: falsehttps://github.com/YUPENG123/gamePhaser.git
+      - name: go
+        run: |
+          git config  user.name "yupeng123"
+          git config  user.email yp523ne@163.com
+          cd joystickHHH
+          unzip example.zip
+          cd ..
+          git config --list
+          git add .
+          git commit -m "添加到远程"
+          git remote -v
+          git push -u origin main
