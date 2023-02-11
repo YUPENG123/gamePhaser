@@ -23,4 +23,6 @@ jobs:
           git config --list
           git add .
           git commit -m "添加到远程"
+          git remote add origin https://github.com/YUPENG123/gamePhaser.git
+          git remote
           git push -u origin main
