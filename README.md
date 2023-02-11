@@ -24,4 +24,5 @@ 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
 * [plane](https://yupeng123.github.io/gamePhaser/plane)
 * [plugin](https://yupeng123.github.io/gamePhaser/plugin)
 * [joystick](https://yupeng123.github.io/gamePhaser/joystick)
+* [joystickHHH](https://yupeng123.github.io/gamePhaser/joystickHHH)
 
