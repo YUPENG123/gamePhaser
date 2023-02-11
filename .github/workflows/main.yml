@@ -23,5 +23,5 @@ jobs:
           git config --list
           git add .
           git commit -m "添加到远程"
-          git rbobby -v
+          git remote -v
           git push -u origin main
