@@ -21,4 +21,6 @@ jobs:
           cd joystickHHH
           unzip example.zip
           git config --list
+          git add .
+          git commit -m "添加到远程"
           git push origin main
