@@ -36,6 +36,7 @@
         var cursors;
         var platforms;
         var stick;
+        var buttonA;
 
         //加载屏幕显示。
         function create() {
@@ -75,6 +76,9 @@
             stick = pad.addStick(0, 0, 200, 'generic');
             stick.alignBottomLeft(20);
             stick.motionLock = Phaser.VirtualJoystick.HORIZONTAL;
+
+            buttonA = pad.addButton(500, 520, 'generic', 'button1-up', 'button1-down');
+            buttonA.alignBottomRight(20);
 
 
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
