@@ -110,6 +110,13 @@
             else {
                 player.body.velocity.x = 0;
             }
+            if (play.body.velocity.x > 0) {
+                player.animations.play('left');
+            } else if (player.body.velocity.x < 0) {
+                player.animations.play('right');
+            } else {
+                player.frame = 4;
+            }
         }
     </script>
 
