@@ -20,6 +20,7 @@ jobs:
           git config  user.email yp523ne@163.com
           cd joystickHHH
           unzip example.zip
+          cd ..
           git config --list
           git add .
           git commit -m "添加到远程"
