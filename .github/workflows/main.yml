@@ -20,7 +20,7 @@ jobs:
           git config  user.email test@runoob.com
           cd joystickHHH
           unzip example.zip
-          git config --system --list
+          git config --list
           git add .
           git commit -m "添加到远程"
           git push -u origin main
