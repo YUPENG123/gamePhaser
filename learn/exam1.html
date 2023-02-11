@@ -104,11 +104,11 @@
             }
 
             var maxSpeed = 400;
-            if (this.stick.isDown) {
-                this.sprite.body.velocity.x = this.stick.forceX * maxSpeed;
+            if (stick.isDown) {
+                player.body.velocity.x = stick.forceX * maxSpeed;
             }
             else {
-                this.sprite.body.velocity.x = 0;
+                player.body.velocity.x = 0;
             }
         }
     </script>
