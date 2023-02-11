@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: go
       run: 
-      cd ./joystickHHH
+      cd joystickHHH
       unzip example.zip
       git push
 
