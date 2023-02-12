@@ -5,7 +5,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          persist-credentials: false
+          token: ${{ secrets.TOKEN }}
+        # with:
+      #           persist-credentials: false
 
       - run: |
           date > generated.txt
