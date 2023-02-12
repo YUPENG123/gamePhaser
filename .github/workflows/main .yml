@@ -13,10 +13,10 @@ jobs:
           date > generated.txt
           git config user.name yupeng123
           git config user.email github-actions@github.com
+          git remote set-url origin https://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@github.com/yupeng123/gamePhaser.git
           git config -l
           git add .
           git commit -m "generated"
-          git remote set-url origin https://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@github.com/yupeng123/gamePhaser.git
           git push
           
   # https://github.com/YUPENG123/gamePhaser.git
