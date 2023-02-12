@@ -13,6 +13,7 @@ jobs:
           date > generated.txt
           git config user.name "yupeng123"
           git config user.email github-actions@github.com
+          git config -l
           git add .
           git commit -m "generated"
           git push
