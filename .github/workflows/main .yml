@@ -13,7 +13,7 @@ jobs:
           date > generated.txt
           git config user.name yupeng123
           git config user.email github-actions@github.com
-          git config user.password "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"
+          git config user.password "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"
           git config -l
           git add .
           git commit -m "generated"
